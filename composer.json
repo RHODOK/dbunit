@@ -1,5 +1,5 @@
 {
-    "name": "phpunit/dbunit",
+    "name": "rhodok/dbunit",
     "description": "PHPUnit extension for database interaction testing",
     "type": "library",
     "keywords": [
@@ -20,7 +20,7 @@
         "issues": "https://github.com/sebastianbergmann/dbunit/issues"
     },
     "require": {
-        "php": "^7.1",
+        "php": ">7.1",
         "phpunit/phpunit": "^7.0",
         "symfony/yaml": "^3.0 || ^4.0",
         "ext-pdo": "*",
