@@ -158,7 +158,7 @@ trait TestCaseTrait
      *
      * @return IDataSet
      */
-    abstract protected function getDataSet(): YamlDataSet;
+    abstract protected function getDataSet(string): YamlDataSet;
 
     /**
      * Returns the database operation executed in test setup.
